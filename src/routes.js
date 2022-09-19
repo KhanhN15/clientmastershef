@@ -32,11 +32,11 @@ export default function Router() {
 
     {
       path: "/detail/:id",
-      element: local ? <Detail /> : <Login />,
+      element: <Detail />,
     },
     {
       path: "/detail",
-      element: local ? <Detail /> : <Login />,
+      element: <Detail />,
     },
     { path: "/login", element: <Login /> },
     { path: "*", element: <Navigate to="/404" replace /> },
