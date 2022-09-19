@@ -15,19 +15,19 @@ export default function Router() {
   return useRoutes([
     {
       path: "/",
-      element: local ? <Home /> : <Login />,
+      element: <Home />,
     },
     {
       path: "/contact",
-      element: local ? <Contact /> : <Login />,
+      element: <Contact />,
     },
     {
       path: "/about",
-      element: local ? <About /> : <Login />,
+      element: <About />,
     },
     {
       path: "/healthy-eating",
-      element: local ? <HealthyEating /> : <Login />,
+      element: <HealthyEating />,
     },
 
     {
