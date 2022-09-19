@@ -60,8 +60,10 @@ const Detail = () => {
       } else {
         console.log("error response");
       }
+    } else {
+      window.location.href = "/login";
+      setError("Please login first");
     }
-    setError("Please login first");
   };
 
   useEffect(() => {
